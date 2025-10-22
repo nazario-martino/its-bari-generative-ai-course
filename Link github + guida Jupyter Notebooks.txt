@@ -1,0 +1,28 @@
+GUIDA: https://ruslanmv.com/blog/How-to-create-a-simple-python-environment
+
+REPOSITORY: https://github.com/ruslanmv/simple-environment
+
+
+Nota per lezioni su pre-elaborazione del testo e rappresentazione del testo:
+Dopo aver scaricato il repository, prima ancora di lanciare make install, andare nel file .toml e assicurarsi che ci siano tutte le seguenti librerie (se mancano, aggiungerle):
+
+"notebook",
+"ipykernel",
+"scikit-learn",
+"pandas",
+"matplotlib",
+"seaborn",
+"nltk",
+"spacy",
+"wordcloud",
+"plotly"
+
+
+Una volta configurato per la prima volta, per poterlo rilanciare:
+- aprire git
+- controllare di essere nella cartella giusta 
+	-> pwd per vedere la cartella corrente
+	-> ls per vedere le sotto-cartelle della cartella corrente
+	-> cd per spostarsi nella cartella desiderata (es. cd simple-environment)
+- lanciare make install
+- lanciare jupyter notebook
