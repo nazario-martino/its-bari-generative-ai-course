@@ -1,0 +1,9 @@
+Modello,Parametri,Dataset (token),Anno,Open Source,Note
+GPT-2 small,117M,~40B,2019,Sì,"Baseline, CPU-friendly"
+GPT-2 medium,345M,~40B,2019,Sì,Buon trade-off
+GPT-2 large,762M,~40B,2019,Sì,Richiede GPU
+GPT-3,175B,300B,2020,No,"Closed, API only"
+LLaMA-7B,7B,1T,2023,Sì,"Efficiente, open"
+LLaMA-13B,13B,1T,2023,Sì,Più potente
+Falcon-7B,7B,1T,2023,Sì,Ottimizzato
+Falcon-40B,40B,1T,2023,Sì,SOTA open
